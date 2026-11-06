@@ -1,0 +1,137 @@
+body{
+    background-color: white;
+}
+.text1{
+    color: #0A66C2;
+    font-size: 30px;
+    font-weight: bold;
+}
+.text2{
+    color: white;
+    background-color: #0A66C2;
+    font-size: 30px;
+    font-weight: bold;
+}
+.logo1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+    gap: 20px;
+}
+.Linkedin{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Linkedin{
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid black;
+    background-color: white;
+}
+.btn1{
+    color: #0A66C2;
+    background-color: white;
+    width: 100px;
+    height: 50px;
+    border: 2px solid #0A66C2;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn1:hover{
+    background-color: lightgray;
+}
+.btn2{
+    width: 100px;
+    height: 50px;
+    color: white;
+    background-color: #0A66C2;
+    border: 2px solid #0A66C2;
+    border-radius: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: navy;
+    color: lightgray;
+}
+h1{
+    width: 500px;
+    line-height: 1.2;
+    font-weight: normal;
+    font-size: 50px;
+}
+.Linkedin1{
+    padding-left: 400px;
+    padding-right: 200px;
+}
+.btn3{
+    width: 400px;
+    height: 40px;
+    color: white;
+    background-color: #0A66C2;
+    font-size: 15px;
+    font-weight: bold;
+    border: 2px solid #0A66C2;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.btn4{
+    color: rgb(27, 27, 27);
+    background-color: white;
+    width: 400px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 1px solid rgb(27, 27, 27);
+    border-radius: 30px;
+    cursor: pointer;
+}
+.btn5{
+    background-color: white;
+    color: darkgray;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 400px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.pp1{
+    padding-bottom: 20px;
+}
+.pp2{
+    padding-bottom: 20px;
+}
+.pp3{
+    padding-bottom: 20px;
+}
+a{
+    color: #0A66C2;
+    cursor: pointer;
+}
+.p1{
+    width: 500px;
+    line-height: 1.6;
+    color: gray;
+}
+h3{
+    color: black;
+    font-weight: normal;
+    padding-left: 90px;
+}
+.image img{
+    width: 600px;
+    height: 600px;
+    padding-bottom: 400px;
+}
+.image{
+    padding-bottom: 600px;
+    padding-right: 400px;
+}
+.container1{
+    display: flex;
+}
