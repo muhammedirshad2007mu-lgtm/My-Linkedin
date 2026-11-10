@@ -133,5 +133,64 @@ h3{
     padding-right: 400px;
 }
 .container1{
+    margin-top: 100px;
     display: flex;
+}
+@media screen and (max-width: 390px) {
+
+        .Linkedin1 {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+    
+        h1 {
+            width: 100%;
+            font-size: 50px;
+            line-height: none;
+            width: 500px;
+        }
+    
+        .p1 {
+            width: 500px;
+        }
+    
+        .btn3,
+        .btn4,
+        .btn5 {
+            height: 50px;
+            width: 500px;
+        }
+    
+        .image img {
+            width: 100%;
+            height: auto;
+            padding-bottom: 0;
+        }
+    
+        .image {
+            padding: 10px;
+            height: 500px;
+            width: 500px;
+        }
+    
+        .container1 {
+            flex-direction: column;
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+        h3{
+            width: 500px;
+            padding-left: 130px;
+        }
+        .Linkedin{
+        border: none;
+        }
+        .Linkedin{
+            position: fixed;
+            border-bottom: 1px solid black ;
+            width: 580px;
+            padding-left: 40px;
+            zoom: 0.9;
+        }
+        
 }
