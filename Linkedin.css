@@ -1,36 +1,39 @@
-body{
+body {
     background-color: white;
 }
-.text1{
+
+.text1 {
     color: #0A66C2;
     font-size: 30px;
     font-weight: bold;
 }
-.text2{
+
+.text2 {
     color: white;
     background-color: #0A66C2;
     font-size: 30px;
     font-weight: bold;
 }
-.logo1{
+
+.logo1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: gray;
     gap: 20px;
 }
-.Linkedin{
+
+.Linkedin {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.Linkedin{
     position: sticky;
     top: 0;
     border-bottom: 1px solid black;
     background-color: white;
 }
-.btn1{
+
+.btn1 {
     color: #0A66C2;
     background-color: white;
     width: 100px;
@@ -40,10 +43,12 @@ body{
     font-weight: bold;
     cursor: pointer;
 }
-.btn1:hover{
+
+.btn1:hover {
     background-color: lightgray;
 }
-.btn2{
+
+.btn2 {
     width: 100px;
     height: 50px;
     color: white;
@@ -53,21 +58,25 @@ body{
     font-weight: bold;
     cursor: pointer;
 }
-.btn2:hover{
+
+.btn2:hover {
     background-color: navy;
     color: lightgray;
 }
-h1{
+
+h1 {
     width: 500px;
     line-height: 1.2;
     font-weight: normal;
     font-size: 50px;
 }
-.Linkedin1{
+
+.Linkedin1 {
     padding-left: 400px;
     padding-right: 200px;
 }
-.btn3{
+
+.btn3 {
     width: 400px;
     height: 40px;
     color: white;
@@ -78,7 +87,12 @@ h1{
     border-radius: 30px;
     cursor: pointer;
 }
-.btn4{
+.btn3:hover {
+    color: #0A66C2;
+    background-color: white;
+}
+
+.btn4 {
     color: rgb(27, 27, 27);
     background-color: white;
     width: 400px;
@@ -89,7 +103,12 @@ h1{
     border-radius: 30px;
     cursor: pointer;
 }
-.btn5{
+.btn4:hover {
+    color: white;
+    background-color: black;
+}
+
+.btn5 {
     background-color: white;
     color: darkgray;
     border: 1px solid black;
@@ -100,97 +119,128 @@ h1{
     font-weight: bold;
     cursor: pointer;
 }
-.pp1{
+.btn5:hover {
+    color: white;
+    background-color: darkgray;
+}
+
+.pp1 {
     padding-bottom: 20px;
 }
-.pp2{
+
+.pp2 {
     padding-bottom: 20px;
 }
-.pp3{
+
+.pp3 {
     padding-bottom: 20px;
 }
-a{
+
+a {
     color: #0A66C2;
     cursor: pointer;
 }
-.p1{
+
+.p1 {
     width: 500px;
     line-height: 1.6;
     color: gray;
 }
-h3{
+
+h3 {
     color: black;
     font-weight: normal;
     padding-left: 90px;
 }
-.image img{
+
+.image img {
     width: 600px;
     height: 600px;
     padding-bottom: 400px;
 }
-.image{
+
+/* .image{
     padding-bottom: 600px;
     padding-right: 400px;
-}
-.container1{
+} */
+.container1 {
     margin-top: 100px;
     display: flex;
 }
-@media screen and (max-width: 390px) {
 
-        .Linkedin1 {
-            padding-left: 10px;
-            padding-right: 10px;
+@media screen and (max-width: 390px) {
+    .body {
+        overflow: hidden;
+        justify-content: center;
+
         }
-    
+        .Linkedin1 {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
         h1 {
+            margin-left: 12px;
             width: 100%;
             font-size: 50px;
             line-height: none;
             width: 500px;
         }
-    
+
         .p1 {
             width: 500px;
+            margin-left: 12px;
         }
-    
+
         .btn3,
         .btn4,
         .btn5 {
             height: 50px;
-            width: 500px;
+            width: 450px;
+            margin-left: 12px;
         }
-    
+
         .image img {
-            width: 100%;
-            height: auto;
+            width: 400px;
+            height: 400px;
             padding-bottom: 0;
         }
-    
+
         .image {
-            padding: 10px;
-            height: 500px;
-            width: 500px;
+            padding: 20px;
+            /* height: 500px;
+            width: 400px; */
         }
-    
+
         .container1 {
             flex-direction: column;
-            padding-left: 40px;
-            padding-right: 40px;
+            /* padding-left: 20px;
+            padding-right: 20px;  */
         }
-        h3{
-            width: 500px;
+
+        h3 {
+            width: 100%;
             padding-left: 130px;
         }
-        .Linkedin{
-        border: none;
+
+        .Linkedin {
+            border: none;
         }
-        .Linkedin{
+
+        .Linkedin {
             position: fixed;
-            border-bottom: 1px solid black ;
-            width: 580px;
-            padding-left: 40px;
-            zoom: 0.9;
+            border-bottom: 1px solid black;
+            /* width: 77%; */
+            gap: 6px;
+            display: flex;
+            justify-content: space-between;
+            zoom: 0.8;
         }
-        
-}
+
+        /*.btn1,
+        .btn2 {
+            display: block;
+        }*/
+
+
+    }
