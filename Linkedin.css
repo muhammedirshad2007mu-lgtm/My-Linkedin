@@ -88,6 +88,10 @@ h1 {
     border-radius: 30px;
     cursor: pointer;
 }
+.btn3 img{
+    height: 20px;
+    width: 20px;
+}
 .btn3:hover {
     color: #0A66C2;
     background-color: white;
@@ -103,6 +107,10 @@ h1 {
     border: 1px solid rgb(27, 27, 27);
     border-radius: 30px;
     cursor: pointer;
+}
+.btn4 img{
+    height:20px;
+    width: 20px;
 }
 .btn4:hover {
     color: white;
@@ -160,82 +168,83 @@ h3 {
     padding-bottom: 400px;
 }
 
-/* .image{
-    padding-bottom: 600px;
-    padding-right: 400px;
-} */
+.image{
+    /* padding-bottom: 600px;
+    padding-right: 400px; */
+} 
 .container1 {
     margin-top: 100px;
     display: flex;
 }
 
-@media screen and (max-width: 390px) {
-    .body {
-        overflow: hidden;
-        justify-content: center;
 
+    @media screen and (max-width: 390px) {
+        .body {
+            overflow: hidden;
+            justify-content: center;
+    
+            }
+            .Linkedin1 {
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+    
+            h1 {
+                margin-left: 12px;
+                width: 100%;
+                font-size: 50px;
+                line-height: none;
+                width: 500px;
+            }
+    
+            .p1 {
+                width: 500px;
+                margin-left: 12px;
+            }
+    
+            .btn3,
+            .btn4,
+            .btn5 {
+                height: 50px;
+                width: 450px;
+                margin-left: 12px;
+            }
+    
+            .image img {
+                width: 400px;
+                height: 400px;
+                padding-bottom: 0;
+            }
+    
+            .image {
+                padding: 20px;
+                /* height: 500px;
+                width: 400px; */
+            }
+    
+            .container1 {
+                flex-direction: column;
+                /* padding-left: 20px;
+                padding-right: 20px;  */
+            }
+    
+            h3 {
+                width: 100%;
+                padding-left: 130px;
+            }
+    
+            .Linkedin {
+                border: none;
+            }
+    
+            .Linkedin {
+                position: fixed;
+                border-bottom: 1px solid black;
+                /* width: 77%; */
+                gap: 6px;
+                display: flex;
+                justify-content: space-between;
+                zoom: 0.8;
+            }
+    
         }
-        .Linkedin1 {
-            padding-left: 0px;
-            padding-right: 0px;
-        }
-
-        h1 {
-            margin-left: 12px;
-            width: 100%;
-            font-size: 50px;
-            line-height: none;
-            width: 500px;
-        }
-
-        .p1 {
-            width: 500px;
-            margin-left: 12px;
-        }
-
-        .btn3,
-        .btn4,
-        .btn5 {
-            height: 50px;
-            width: 450px;
-            margin-left: 12px;
-        }
-
-        .image img {
-            width: 400px;
-            height: 400px;
-            padding-bottom: 0;
-        }
-
-        .image {
-            padding: 20px;
-            /* height: 500px;
-            width: 400px; */
-        }
-
-        .container1 {
-            flex-direction: column;
-            /* padding-left: 20px;
-            padding-right: 20px;  */
-        }
-
-        h3 {
-            width: 100%;
-            padding-left: 130px;
-        }
-
-        .Linkedin {
-            border: none;
-        }
-
-        .Linkedin {
-            position: fixed;
-            border-bottom: 1px solid black;
-            /* width: 77%; */
-            gap: 6px;
-            display: flex;
-            justify-content: space-between;
-            zoom: 0.8;
-        }
-
-    }
